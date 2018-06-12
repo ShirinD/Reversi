@@ -1,26 +1,131 @@
 body {
-	background: #4caf50;
+	background-color: #000;
+	background-image: url(../images/hulk-thor-bg.jpg) !important;
+	background-size: cover;
+		}
+		
+.sh-invite-btn,	
+#play-btn {
+color: #070707;
+    background-color: #8BC34A;
+    border-color: #ffffff;
+    background: #fff207;
+    background: -moz-linear-gradient(-45deg, #fff207 0%, #fff200 26%, #00b521 100%);
+    background: -webkit-linear-gradient(-45deg, #fff207 0%,#fff200 26%,#00b521 100%);
+    background: linear-gradient(135deg, #fff207 0%,#fff205 26%,#04c327 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff207', endColorstr='#00b521',GradientType=1 );
+    box-shadow: 10px 10px 15px;
+    }
+
+.sh-play-btn {
+	background: #f9ab9d;
+background: -moz-linear-gradient(top, #f9ab9d 0%, #f55337 50%, #dd2601 51%, #f06000 75%, #bc1f00 100%);
+background: -webkit-linear-gradient(top, #f9ab9d 0%,#f55337 50%,#dd2601 51%,#f06000 75%,#bc1f00 100%);
+background: linear-gradient(to bottom, #f9ab9d 0%,#f55337 50%,#dd2601 51%,#f06000 75%,#bc1f00 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9ab9d', endColorstr='#bc1f00',GradientType=0 );
+ box-shadow: 10px 10px 15px;
 }
 
+.sh-invited-btn {
+background: #b71f03;
+}
+
+.sh-invited-btn:hover {
+background: #f9ab9d;
+background: -moz-linear-gradient(top, #f9ab9d 0%, #f55337 50%, #dd2601 51%, #f06000 75%, #bc1f00 100%);
+background: -webkit-linear-gradient(top, #f9ab9d 0%,#f55337 50%,#dd2601 51%,#f06000 75%,#bc1f00 100%);
+background: linear-gradient(to bottom, #f9ab9d 0%,#f55337 50%,#dd2601 51%,#f06000 75%,#bc1f00 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9ab9d', endColorstr='#bc1f00',GradientType=0 );
+ box-shadow: 10px 10px 15px;
+}
+
+.sh-play-btn:hover {
+	background: #bc1f00;
+background: -moz-linear-gradient(top, #bc1f00 0%, #bc1f00 100%);
+background: -webkit-linear-gradient(top, #bc1f00 0%,#bc1f00 100%);
+background: linear-gradient(to bottom, #bc1f00 0%,#bc1f00 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bc1f00', endColorstr='#bc1f00',GradientType=0 );
+}
+
+.sh-invite-btn:hover,    
+#play-btn:hover {
+	background-color: #8BC34A;
+    box-shadow: 0px 0px 0px;
+    background: #fff207;
+    background: -moz-linear-gradient(-45deg, #c1c0b3 0%, #848257 26%, #2a7a39 100%);
+    background: -webkit-linear-gradient(-45deg, #c1c0b3 0%,#848257 26%,#2a7a39 100%);
+    background: linear-gradient(135deg, #c1c0b3 0%,#848257 26%,#2a7a39 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1c0b3', endColorstr='#2a7a39',GradientType=1 );
+    color: #fff;
+}
+
+.name-form {
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    width: 291px;
+    }
+
+.left-space {
+	margin-left: 60px;
+	}
+
+h2,h3 {
+    color: #ff0;
+    text-shadow: 1px 2px 6px #000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
+
+.btn,
+.sh-btn.btn-info {
+    color: #fff;
+    background-color: #94a203;
+    border-color: #ffffff;
+    box-shadow: 3px 3px 11px #333;
+    }
+    
+h4 {
+    margin-top: 13px;
+    color: #fff;
+    text-shadow: 2px 1px 1px #333;
+    }
+		
 table#game_board {
 	margin:auto;
 	border-style: solid;
 	border-width: 10px;
-	border-color: rgb(100,100,100);
+	border-color: #fff;
+	background: #00000070;
 }
 
 table#game_board td {
 	padding: 5px;
 	border-style: solid;
 	border-width: 1px;
-	border-color: rgb(50,50,50);
+	border-color: #fff;
+}
+
+#whitesum {
+font-size: 40px;
+    color: #ffff00;
+    font-weight: bold;
+}
+
+#blacksum {
+font-size: 40px;
+    color: #00ff17;
+    font-weight: bold;
 }
 
 #messages p {
 	margin: 0px;
+	color: #fff;
+    text-shadow: 1px 1px 1px #333;
 }
 
 td.hovered_over:hover {
-	background: url('../images/hover.gif');
+	background: url('../images/punch_hover.gif');
 	background-size: 100% 100%;
 }
